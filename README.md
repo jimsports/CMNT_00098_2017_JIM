@@ -17,6 +17,11 @@ $ deb http://apt.anybox.fr/openerp common main
 ```
 $ sudo apt-key adv --keyserver hkp://subkeys.pgp.net --recv-keys 0xE38CEB07
 ```
+The key servers can sometimes be overloaded. In that case, wait a few minutes and try again. Alternatively, you may want to download the key directly from here and install it directly:
+```
+wget http://anybox.fr/docs/clef-de-signature-de-paquets/at_download/file/anybox_packagers.asc
+sudo apt-key add anybox_packagers.asc
+```
 - Actualizar e instalar
 ```
 $ sudo apt-get update
