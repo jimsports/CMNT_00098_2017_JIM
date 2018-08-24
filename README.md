@@ -78,6 +78,10 @@ odoo
 └── var
 
 ```
+- Dependencia para pyodbc```
+ sudo apt-get install unixodbc-dev
+ ```
+
 - Lanzar buildout (el -c [archivo_buildout] se usa cuando no tiene el nombre por defecto buildout.cfg)
 ```
  $ bin/buildout -c [archivo_buildout]
